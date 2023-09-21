@@ -1,0 +1,147 @@
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,62,121,1) 35%, rgba(0,212,255,1) 100%);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.Title{
+    margin-top: 20px;
+    color:rgb(255, 123, 0);
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.totsum{
+    width: 15em;
+    height: 3em;
+    color:rgb(11, 219, 11);
+    font-size: 1em;
+    border-radius: 4em;
+    text-align: center;
+    background-color: beige;
+    border: solid grey;
+
+}
+
+.sold{
+    margin-left:190px;
+    width: 345px;
+    display: block;
+    font-size: x-large;
+    color: rgb(11, 219, 11);
+
+    
+}
+
+.titlu2{
+    display: flex;
+    justify-content: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.titlu3{
+    display: flex;
+    justify-content: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.expenses{
+    width: 725px;
+    display:block;
+    font-size: x-large;
+    color: red;
+
+}
+
+.exp{
+    width: 15em;
+    height: 3em; 
+    color: green;
+    font-size: 1em;
+    border-radius: 4em;
+    text-align: center;
+    background-color: beige;
+    border: solid grey;
+    font-size: x-large;
+    
+}
+
+.soldtotal{
+    font-size: 10em;
+    display: grid;
+    place-items: center;
+
+}
+
+.btn{
+
+    margin-top: 30px;
+    margin-left: 90px;
+    width: 9em;
+    height: 3em;
+    border-radius: 4em;
+    background-color:rgb(233, 134, 87);
+    color:rgb(23, 0, 139);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    width: 640px;
+}
+
+.btnRes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 310px;
+    width: 5em;
+    height: 5em;
+    border-radius: 8em;
+    background-color:rgb(255, 0, 0);
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+}
+
+
+
+.prod{
+    width: 15em;
+    height: 3em; 
+    color:rgb(11, 219, 11);
+    font-size: 1em;
+    border-radius: 4em;
+    text-align: center;
+    background-color: beige;
+
+}
+
+#cump{
+    
+    color:#ffffff;
+    position: absolute;
+    top: 10%;
+    left: 80%;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 5em;
+    border-radius: 1em;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
