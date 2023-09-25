@@ -1,0 +1,111 @@
+.simbols{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 30%;
+
+    
+}
+.cell{
+    
+width: 15em;
+height: 15em;
+border: solid green;
+
+}
+
+.cell:hover{
+    border: solid salmon;
+    transform: scale(1.1);
+}
+
+
+
+#rock{
+    background-image: url(./assets1/rock.jpg);
+    background-size:cover;
+    background-position: 75%;
+    
+ 
+    
+    
+}
+
+#paper{
+    background-image: url(./assets1/paper.jpg);
+    background-size: cover;
+    background-position: 20%;
+}
+
+#scissors{
+    background-image: url(./assets1/scissors.jpg);
+    background-size:cover;
+    background-position: 20%;
+    background-repeat: no-repeat;
+    
+}
+
+
+
+
+
+
+
+body{
+    background-color: aquamarine;
+}
+
+#text{
+    display: flex;
+    width: 100%;
+    height: 3em;
+    
+    justify-content: center;
+    align-items: center;
+    text-transform:uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    color: rgba(107, 12, 92, 0.953);
+    font-style: oblique;
+    
+    
+}
+
+#cch{
+    display: flex;
+    width: 100%;
+    height: 3em;
+    
+    justify-content: center;
+    align-items: center;
+    text-transform:uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    color: rgba(107, 12, 92, 0.953);
+    font-style: oblique;
+    
+      
+    
+}
+
+.dcch{
+    position: relative;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 25%;
+}
+
+.dtext{
+    position: relative;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 35%;
+}
