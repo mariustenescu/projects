@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="car.css">
+    <link href="https://fonts.cdnfonts.com/css/transformers" rel="stylesheet">
+</head>
+<body>
+    
+    <h1 class="title">Car's reminder</h1>
+    <div>
+        <div id="MyDateDisplay" class="date1" onload="expire()"></div>
+
+        <h2>Asigurare</h2>
+        <input id="cl" type="date">
+
+      
+        <h2>Valabilitate asigurare</h2>
+        <input id="valAsig" type="date">
+   
+        <h2>Rovinieta</h2>
+        <input class="rovinieta" id="rod" type="date" >
+ 
+        <h2>Valabilitate rovinieta</h2>
+        <input class="vlro" id="vrod" type="date" >
+        <h2>Revizie</h2>
+        <input class="revizie" type="date">
+     
+        <h2>Urmatoarea revizie</h2>
+        <input class="vlre" type="date">
+        <button class="button" type="button" >Verifica</button>
+        <span class="asigurare"></span>
+        <span class="rovinietaText"></span>
+        <span class="reviz"></span>
+    </div>
+
+  <script src="car.js"></script>  
+</body>
+</html>
