@@ -1,0 +1,70 @@
+body{
+    background: rgb(65, 64, 64);
+}
+
+.header{
+    text-align: center;
+    font-size: 3em;
+    position: relative;
+    margin-top: 3em;
+    font-family:Impact, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    font-weight: bolder;
+    color: #17d4fe;
+    text-transform: uppercase;
+
+}
+
+.list-group-item{
+    cursor: pointer;
+}
+
+#newTask{
+    width: 60em;
+    height: 3em;
+    position: absolute;
+    left: 55%;
+    margin-left: -600px;
+    
+    margin-top: 3em;
+    font-size: 1em;
+}
+
+#button{
+margin-top: 3.45em;
+position: absolute;
+left:73.4%;
+width: 143;
+height: 3.8em;
+
+background-color:#17d4fe;
+
+}
+
+#button:hover{
+    background-color: black;
+    color: #17d4fe;
+}
+
+#tasks{
+    color:#17d4fe;
+    position: absolute;
+    left: 17%;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 5em;
+}
+
+#clBtn{
+    width: 143;
+    height: 3.8em;
+    background-color: rgb(255, 68, 0);
+    position: absolute;
+    margin-top: 35em;
+    left:45%;
+}
+
+#clBtn:hover{
+    background-color: black;
+    color: rgb(255, 68, 0);
+}
